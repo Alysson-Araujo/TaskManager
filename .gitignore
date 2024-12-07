@@ -1,0 +1,67 @@
+# Sistema
+*.DS_Store
+Thumbs.db
+
+# Ambientes virtuais
+venv/
+env/
+*.egg-info/
+pip-wheel-metadata/
+
+# Arquivos Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+
+# Configuração de IDEs/Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Banco de dados local
+db.sqlite3
+*.db
+
+# Arquivos de configuração sensíveis
+.env
+*.pem
+*.key
+
+# Arquivos estáticos e de mídia gerados
+/staticfiles/
+media/
+
+# Cache do Django
+*.cache
+*.mo
+
+# Configuração de Deploy
+*.env.production
+*.env.development
+*.env.local
+.env.example
+
+# Configuração de Docker (se aplicável)
+docker-compose.override.yml
+*.override.yml
+
+# Arquivos gerados pelo Allauth (opcional)
+allauth/
+
+# Diretórios de build
+build/
+dist/
+
+# Arquivos de teste
+.coverage
+htmlcov/
+.tox/
+.nox/
+test-output/
+
+# Outros
+*.bak
+*.swp
